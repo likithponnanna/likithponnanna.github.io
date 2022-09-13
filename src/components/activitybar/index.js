@@ -30,13 +30,13 @@ const ActivityBar = (props) => {
                 <Link title="Github" variants={Item} whileHover={{ scale: 1.2 }} href={socialLinks.github} target="_blank">
                     <Github />
                 </Link>
-                <Link title="Download PDF Resume" variants={Item} whileHover={{ scale: 1.2 }} href="/resume.pdf" target="_blank">
-                    <i> <Pdf className="pdf"/> PDF</i>
+                <Link title="Download PDF Resume" variants={Item} whileHover={{ scale: 1.2 }} href="https://drive.google.com/drive/folders/15GQXZ6GS4vXxw1FEj_3ferNbEL5k15Sw?usp=sharing" target="_blank">
+                    <i> <Pdf className="pdf" /> PDF</i>
                 </Link>
             </motion.ul>
 
             <Mode whileHover={{ scale: 1.2 }} title="Change Theme">
-                <Moon onClick={setMode}/>
+                <Moon onClick={setMode} />
             </Mode>
         </Wrapper>
     )

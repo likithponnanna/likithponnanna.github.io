@@ -67,7 +67,7 @@ export const Resume = {
 
 
 export const SocialLinks = {
-    resume: '/resume.pdf',
+    resume: 'https://drive.google.com/drive/folders/15GQXZ6GS4vXxw1FEj_3ferNbEL5k15Sw?usp=sharing',
     linkedin: 'https://www.linkedin.com/in/likith-ponnanna/',
     twitter: 'https://twitter.com/likithponnanna1',
     github: 'https://github.com/likithponnanna'
