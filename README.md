@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/assets/icons/resume.svg" width="100" height="150">
+    <img src="/assets/svg/resume.svg" width="100" height="150">
 </p>
 <p align="center">
     <b>Personal Resume Website of Likith Ponnanna</b>
