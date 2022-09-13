@@ -63,7 +63,7 @@ module.exports = {
 			maxAsyncRequests: 5,
 			maxInitialRequests: 3,
 			automaticNameDelimiter: '~',
-			name: true,
+			name: false,
 			cacheGroups: {
 				vendors: {
 					test: /[\/]node_modules[\/]/,
@@ -83,27 +83,27 @@ module.exports = {
 			template: path.resolve(__dirname, 'src/index.html')
 		}),
 		new WorkboxPlugin.GenerateSW({
-	       clientsClaim: true,
-	       skipWaiting: true,
-	    }),
+			clientsClaim: true,
+			skipWaiting: true,
+		}),
 		new WebpackPwaManifest({
-            filename: 'manifest.webmanifest',
-            name: 'CodeResume',
-            orientation: "portrait",
-            display: "standalone",
-            start_url: ".",
-            short_name: 'Resume',
-            description: 'CodeResume || Portfolio!',
-            theme_color: "#241b2f",
-            background_color: "#262335",
-            crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
-            fingerprints: true,
-            icons: [
-                {
-                    src: path.resolve('assets/icons/icon.png'),
-                    size: [96, 128, 192, 256, 384, 512] // multiple sizes
-                }
-            ]
-        })
+			filename: 'manifest.webmanifest',
+			name: 'CodeResume',
+			orientation: "portrait",
+			display: "standalone",
+			start_url: ".",
+			short_name: 'Resume',
+			description: 'CodeResume || Portfolio!',
+			theme_color: "#241b2f",
+			background_color: "#262335",
+			crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
+			fingerprints: true,
+			icons: [
+				{
+					src: path.resolve('assets/icons/icon.png'),
+					size: [96, 128, 192, 256, 384, 512] // multiple sizes
+				}
+			]
+		})
 	]
 }

@@ -27,8 +27,7 @@
         "react-dom": "latest",
         "react-is": "^18.2.0",
         "react-router-dom": "^5.1.2",
-        "regenerator-runtime": "^0.13.5",
-        "webpack": "latest"
+        "regenerator-runtime": "^0.13.5"
     },
     "devDependencies": {
         "@babel/core": "latest",
@@ -43,7 +42,7 @@
         "react-svg-loader": "^3.0.0",
         "styled-components": "^5.0.1",
         "terser-webpack-plugin": "^4.2.3",
-        "webpack": "latest",
+        "webpack": "^5.73.0",
         "webpack-cli": "^4.10.0",
         "webpack-dev-server": "^4.9.2",
         "webpack-pwa-manifest": "^4.0.0",
