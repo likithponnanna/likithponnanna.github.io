@@ -88,12 +88,12 @@ module.exports = {
 		}),
 		new WebpackPwaManifest({
 			filename: 'manifest.webmanifest',
-			name: 'CodeResume',
+			name: 'Likith-Ponnanna-Resume',
 			orientation: "portrait",
 			display: "standalone",
 			start_url: ".",
 			short_name: 'Resume',
-			description: 'CodeResume || Portfolio!',
+			description: 'Likith-Ponnanna-Resume || Portfolio!',
 			theme_color: "#241b2f",
 			background_color: "#262335",
 			crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
