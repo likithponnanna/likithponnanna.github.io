@@ -7,16 +7,21 @@ export const Resume = {
     def __init__():
         first_name =  'Likith Ponnanna', 
         last_name =   'Patrapanda Belliappa'
-        designation = 'Machine Learning Engineer'
-        company =     'Quantiphi'
+        designation = 'Senior Machine Learning Engineer'
+        company =     'Cyvl'
      `,
 
     experience: ` 
     def experience():
+        Cyvl = {
+            Company:             'Cyvl, Inc.',
+            Designation:         'Senior Machine Learning Engineer',
+            Period:              'Jan 2023 to Present'
+        }
         Quantiphi = {
             Company:             'Quantiphi Inc',
             Designation:         'Machine Learning Engineer',
-            Period:              'March 2020 to Present'
+            Period:              'March 2021 to Jan 2023'
         }
         KodakAlaris = {
             Company:             'Kodak Alaris - AI Foundry (acquired by Guaranteed Rate)',
@@ -28,7 +33,7 @@ export const Resume = {
             Designation:         'Data Scientist / Co-Founder',
             Period:              'Sep 2016 to June 2018'
         }
-        return Quantiphi, KodakAlaris, ViaggioTechnologies
+        return Quantiphi, KodakAlaris, ViaggioTechnologies, Cyvl
     `,
 
     skills: ` 
@@ -37,14 +42,14 @@ export const Resume = {
             C, C++, Java, Python, JavaScript, Go, CUDA.
         }
         MachineLearning = {
-            Frameworks         'PyTorch, TensorFlow, Scikit-learn, NVIDIA TAO, ONNX, OpenCV, MATLAB, Keras, Caffe, MLlib, NVIDIA Omniverse, Rapids'
-            Operations:        'AWS SageMaker, Google Vertex AI, MLFlow',
+            Frameworks         'PyTorch, Lightning, TensorFlow, Scikit-learn, OpenCV, MATLAB, Keras, Rapids, PySpark, Ray'
+            Operations:        'AWS SageMaker, Google Vertex AI, Azure ML, DVC, MLflow, Kubeflow, CVAT, FiftyOne',
             DeploymentTools:   'Docker, Kafka, Kubernetes, Deepstream, Triton Server, NVIDIA Fleet Command, NVIDIA Metropolis, TensorRT'
         }
         Cloud = {
             Platforms:       'Amazon Web Services [Certified ML - Specialty], Azure, Google Cloud Platform, Heroku'
-            Database:        'NoSQL, SQLite, MongoDB, PostgreSQL, MySQL, Redis'
-            WebTechnologies: 'HTML5/CSS3, AngularJS, NodeJS, ReactJS, Spring Boot, jQuery, JavaScript, REST, gRPC, Flask'
+            Database:        'SQLite, MongoDB, PostgreSQL, DuckDB, MySQL'
+            WebTechnologies: 'HTML5/CSS3, AngularJS, NodeJS, ReactJS, Spring Boot, JavaScript, REST, gRPC, Flask, FastAPI, Streamlit'
         }
         return Language, MachineLearning, Cloud
     `,
@@ -57,7 +62,7 @@ export const Resume = {
 
     contact: ` 
     def contact():
-        email    = <a target='_blank' href='mailto:contact@likithponnanna.com'>contact@likithponnanna.com</a>
+        email    = <a target='_blank' href='mailto:contact@likithponnanna.com'>contact@likith.com</a>
         github   = <a target='_blank' href='https://github.com/likithponnanna'>@likithponnanna</a>
         linkedin = <a target='_blank' href='https://www.linkedin.com/in/likith-ponnanna/'>@likith-ponnanna</a>
         return email, github, linkedin
